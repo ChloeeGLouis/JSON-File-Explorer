@@ -1,0 +1,105 @@
+[
+  {
+    "question": "1. How do you say 'Hello' in Haitian Creole?",
+    "choices": [ "A. Bonjour", "B. Hola", "C. Alo", "D. Ciao" ],
+    "answer": "C. Alo"
+  },
+  {
+    "question": "2. How do you say 'Goodbye' in Haitian Creole?",
+    "choices": [ "A. Orevwa", "B. Ciao", "C. Bon nuit", "D. Adieu" ],
+    "answer": "A. Orevwa"
+  },
+  {
+    "question": "3. How do you say 'Good morning' in Haitian Creole?",
+    "choices": [ "A. Bonswa", "B. Bonjou", "C. Bon apremidi", "D. Bòn nwit" ],
+    "answer": "B. Bonjou"
+  },
+  {
+    "question": "4. What does 'Mèsi' mean?",
+    "choices": [ "A. Thank you", "B. How are you?", "C. No problem", "D. Hello" ],
+    "answer": "A. Thank you"
+  },
+  {
+    "question": "5. What does 'Souplè' mean?",
+    "choices": [ "A. Good afternoon", "B. Goodbye", "C. No thank you", "D. Please" ],
+    "answer": "D. Please"
+  },
+  {
+    "question": "6. What does 'Dlo' mean?",
+    "choices": [ "A. Bread", "B. Fire", "C. Water", "D. Milk" ],
+    "answer": "C. Water"
+  },
+  {
+    "question": "7. What does 'Fanmi' mean?",
+    "choices": [ "A. Friend", "B. Neighbor", "C. Stranger", "D. Family" ],
+    "answer": "D. Family"
+  },
+  {
+    "question": "8. What does 'Zanmi' mean?",
+    "choices": [ "A. Enemy", "B. Cousin", "C. Friend", "D. Teacher" ],
+    "answer": "C. Friend"
+  },
+  {
+    "question": "9. What does 'Bezwen' mean?",
+    "choices": [ "A. To have", "B. To want", "C. To give", "D. To need" ],
+    "answer": "D. To need"
+  },
+  {
+    "question": "10. How do you say 'pig' in Haitian Creole?",
+    "choices": [ "A. Chen", "B. Zwazo", "C. Bèf", "D. Kochon" ],
+    "answer": "D. Kochon"
+  },
+  {
+    "question": "11. Which of these phrases does NOT mean 'How are you?'",
+    "choices": [ "A. Kote ou ye?", "B. Ki jan ou ye?", "C. Kijan sa ap mache?", "D. Kòman ou ye?" ],
+    "answer": "A. Kote ou ye?"
+  },
+  {
+    "question": "12. If you want to say 'I'm hungry' in Haitian Creole, what do you say?",
+    "choices": [ "A. Mwen swaf", "B. Mwen grangou", "C. Mwen fatige", "D. Mwen anwiye" ],
+    "answer": "B. Mwen grangou"
+  },
+  {
+    "question": "13. How would you say 'I love you' in Haitian Creole?",
+    "choices": [ "A. Mwen renmen ou", "B. Mwen kontan ou", "C. Mwen bezwen ou", "D. Mwen konnen ou" ],
+    "answer": "A. Mwen renmen ou"
+  },
+  {
+    "choice_comment": "'Jòn' is yellow, 'Jèn' means young.",
+    "question": "14. Which of these Haitian words is NOT a color?",
+    "choices": [ "A. Wouj", "B. Jèn", "C. Mawon", "D. Vèt" ],
+    "answer": "B. Jèn"
+  },
+  {
+    "question": "15. What does the casual saying 'Sa k ap fet' mean?",
+    "choices": [ "A. Where are you?", "B. What are you doing?", "C. Where are you going?", "D. What's going on?" ],
+    "answer": "D. What's going on?"
+  },
+  {
+    "question": "16. In 'Mwen te manje,' what does the word 'te' indicate?",
+    "choices": [ "A. A question is being asked", "B. The action happened in the past", "C. The subject is plural", "D. The action is happening right now" ],
+    "answer": "B. The action happened in the past"
+  },
+  {
+    "question": "17. What does 'Mwen pa pale kreyòl byen' mean?",
+    "choices": [ "A. I love speaking Creole.", "B. I don't understand Creole at all", "C. I don't speak Creole well", "D. I don't like speaking Creole" ],
+    "answer": "C. I don't speak Creole well."
+  },
+  {
+    "question": "18. When someone says, 'W ap konn jòj,' what is s/he trying to say?",
+    "choices": [ "A. Don't waste a good opportunity", "B. You'll see the consequences of your actions", "C. Team work makes the dream work", "D. Not everything is as it seems" ],
+    "answer": "B. You'll see the consequences of your actions."
+  },
+  {
+    "choice_comment": "The proverb means someone who is already overburdened just keeps pushing forward rather than stopping.",
+    "question": "19. What is the meaning of the proverb 'Bourik chaje pa kanpe'?",
+    "choices": [ "A. Slow and steady wins the race", "B. A person under heavy burden keeps going rather than stop", "C. Don't judge a book by its cover", "D. Actions speak louder than words" ],
+    "answer": "B. A person under heavy burden keeps going rather than stop"
+  },
+  {
+    "choice_comment": "Literally 'the one who strikes forgets, the one who bears the mark remembers' — the person harmed carries the memory longer than the person who caused the harm.",
+    "question": "20. What is the meaning of the proverb 'Bay kou bliye, pote mak sonje'?",
+    "choices": [ "A. Forgiveness heals all wounds", "B. Violence is never the answer", "C. The one who causes harm forgets, but the one who suffers it remembers", "D. Time heals all wounds" ],
+    "answer": "C. The one who causes harm forgets, but the one who suffers it remembers"
+  }
+]
