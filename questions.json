@@ -65,7 +65,6 @@
     "answer": "A. Mwen renmen ou"
   },
   {
-    "choice_comment": "'Jòn' is yellow, 'Jèn' means young.",
     "question": "14. Which of these Haitian words is NOT a color?",
     "choices": [ "A. Wouj", "B. Jèn", "C. Mawon", "D. Vèt" ],
     "answer": "B. Jèn"
@@ -88,16 +87,14 @@
   {
     "question": "18. When someone says, 'W ap konn jòj,' what is s/he trying to say?",
     "choices": [ "A. Don't waste a good opportunity", "B. You'll see the consequences of your actions", "C. Team work makes the dream work", "D. Not everything is as it seems" ],
-    "answer": "B. You'll see the consequences of your actions."
+    "answer": "B. You'll see the consequences of your actions"
   },
   {
-    "choice_comment": "The proverb means someone who is already overburdened just keeps pushing forward rather than stopping.",
     "question": "19. What is the meaning of the proverb 'Bourik chaje pa kanpe'?",
     "choices": [ "A. Slow and steady wins the race", "B. A person under heavy burden keeps going rather than stop", "C. Don't judge a book by its cover", "D. Actions speak louder than words" ],
     "answer": "B. A person under heavy burden keeps going rather than stop"
   },
   {
-    "choice_comment": "Literally 'the one who strikes forgets, the one who bears the mark remembers' — the person harmed carries the memory longer than the person who caused the harm.",
     "question": "20. What is the meaning of the proverb 'Bay kou bliye, pote mak sonje'?",
     "choices": [ "A. Forgiveness heals all wounds", "B. Violence is never the answer", "C. The one who causes harm forgets, but the one who suffers it remembers", "D. Time heals all wounds" ],
     "answer": "C. The one who causes harm forgets, but the one who suffers it remembers"
