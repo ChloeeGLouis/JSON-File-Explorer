@@ -1,5 +1,4 @@
 import json
-import math
 
 # function that loads JSON file
 def load_json_file(file):
@@ -20,12 +19,6 @@ def instance_of_data(dt):
 def check_back_quit(user_input):
     return user_input == "back" or user_input == "quit"
 
-# helper function that converts user input into an integer if necessary
-def to_int_if_needed(user_input):
-    if not user_input.isdigit():
-        return int(user_input)
-    return user_input
-
 # function that gets valid input from user given the instance of the data
 def get_valid_input(instance, data):
     user_input = ""
@@ -34,13 +27,15 @@ def get_valid_input(instance, data):
         while not check_back_quit(user_input):  # if the user does not enter 'back' or 'quit'
             if user_input not in data.keys():   # if the user did not enter a valid key
                 user_input = input("Key is invalid. Enter one of the listed keys: ")  # notify user and try again
-            break # break loop because input is valid
+            else:
+                break # break loop because input is valid
     elif instance == "list":    # if instance is list
         user_input = input("Type a number (0-" + str(len(data) - 1) + ") to drill into, 'back' to go up, or 'quit' to exit: ") # request input
         while not check_back_quit(user_input):  # if the user does not enter 'back' or 'quit'
-            if not user_input.isdigit() or not int(user_input).is_integer() or (0 > int(user_input) or len(data) < int(user_input)): # if the user input is not valid integer
+            if not user_input.isdigit() or (0 > int(user_input) or len(data) < int(user_input)): # if the user input is not valid integer
                 user_input = input("Number is invalid: Type a number (0-" + str(len(data) - 1) + ") to drill into: ")  # notify user and try again
-            break   # break loop because input is valid
+            else:
+                break   # break loop because input is valid
     return user_input   # return user's input
 
 # main method
@@ -52,7 +47,9 @@ def main():
             data = load_json_file(json_data)
             break
         except FileNotFoundError:
-            print("File not found.")
+            print("File not found. Please try again.")
+        except IsADirectoryError:
+            print("Directory not found. Please try again.")
 
     print("\nData successfully loaded.")
     current_data = data # the current data being viewed
